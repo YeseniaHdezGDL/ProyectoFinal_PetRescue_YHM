@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Yesenia",
+      "username": "yesshdez",
+      "email": "hernandezy1603@gmail.com",
+      "password": "arandas"
+    },
+    {
+      "name": "Alan",
+      "email": "",
+      "userName": "alan",
+      "id": 2
+    },
+    {
+      "name": "maria",
+      "email": "maria@gmail.com",
+      "userName": "mari",
+      "id": 3
+    },
+    {
+      "name": "juan",
+      "email": "juan@gmail.com",
+      "userName": "juanito",
+      "id": 4
+    },
+    {
+      "name": "ana",
+      "email": "ana@gmail.com",
+      "userName": "anita",
+      "id": 5
+    },
+    {
+      "name": "ana",
+      "email": "ana@gmail.com",
+      "userName": "anita",
+      "id": 6
+    },
+    {
+      "name": "Jesús",
+      "email": "jesus@gmail.com",
+      "userName": "chuy",
+      "id": 7
+    }
+  ]
+}
