@@ -4,7 +4,7 @@ import React from 'react';
 import Carrusel from './Carrusel/Carrusel';
 import PinArea from './PinArea/PinArea';
 import HowItWorks from './HowItWorks/HowItWorks';
-import Contact from './Conctact/Contact';
+import Contact from './Contact/Contact';
 
 const Main = () => (
     <div>
