@@ -17,6 +17,7 @@ class CreateUser extends Component {
         name: '',
         email: '',
         userName: '',
+        password: '',
         error: false,
     };
 

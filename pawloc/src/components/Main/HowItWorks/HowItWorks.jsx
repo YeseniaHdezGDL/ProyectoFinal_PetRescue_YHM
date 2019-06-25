@@ -1,5 +1,4 @@
 import React from 'react';
-import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
 
 
 const HowItWorks = () => (

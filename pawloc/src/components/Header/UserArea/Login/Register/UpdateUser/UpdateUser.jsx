@@ -29,7 +29,7 @@ class UpdateUser extends Component {
   }
 
   render() {
-    const {name, email, userName} = this.props;
+    const {name, email, userName, password} = this.props;
     const alert = this.state.error && (<Alert variant="danger">Algo salió mal</Alert>);
     return (
       <Modal show={this.props.show} onHide={this.props.hide}>
@@ -38,7 +38,7 @@ class UpdateUser extends Component {
         </Modal.Header>
 
         <Modal.Body>
-          <UserForm submit={this.update} data={{name, email, userName}} />
+          <UserForm submit={this.update} data={{name, email, userName, password}} />
         </Modal.Body>
         {alert}
       </Modal>

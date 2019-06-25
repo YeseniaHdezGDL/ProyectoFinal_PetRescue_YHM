@@ -6,7 +6,6 @@ import { deleteData } from '../../../utils/api';
 // Components
 import Modal from 'react-bootstrap/Modal';
 import Alert from 'react-bootstrap/Alert';
-import UserForm from './UserForm/UserForm';
 
 class DeleteUser extends Component {
   constructor(props) {

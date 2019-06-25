@@ -1,5 +1,3 @@
-import { parse } from "url";
-
 const API_URL = 'http://localhost:3001';
 
 function parseResponse(response) {

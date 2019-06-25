@@ -6,7 +6,6 @@ import CreateUser from './CreateUser/CreateUser';
 
 //actions
 import { getData } from '../../../../../utils/api';
-import Button from 'react-bootstrap/Button';
 
 class Register extends Component {
     constructor(props) {

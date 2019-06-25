@@ -31,13 +31,14 @@ class User extends Component {
   }
 
   render() {
-    const {id, name, email, userName} = this.props;
+    const {id, name, email, userName, password} = this.props;
     return (
       <>
         <td>{id}</td>
         <td>{name}</td>
         <td>{email}</td>
         <td>{userName}</td>
+        <td>{password}</td>
         <UpdateUser show={this.state.editing} hide={this.closeModal} {...this.props} />
       </>
     );

@@ -1,8 +1,15 @@
 import React from 'react';
 
+//subcomponentes
+import Profile from './Profile/Profile';
+import PetProfile from './PetProfile/PetProfile';
+import Notifications from './Notifications/Notifications';
+
 const Dashboard = () => (
     <div>
-        <h1>Aquí editas tu perfil y registras a tus mascotas</h1>
+        <Profile />
+        <PetProfile />
+        <Notifications />
     </div>
 )
 

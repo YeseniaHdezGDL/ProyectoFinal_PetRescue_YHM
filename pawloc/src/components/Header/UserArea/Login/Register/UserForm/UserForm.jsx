@@ -12,10 +12,12 @@ class UserForm extends Component {
            name: props.data.name || '',
            email: props.data.email || '',
            userName: props.data.userName || '',
+           password: props.data.password || '',
        };
        this.updateName = this.updateName.bind(this);
        this.updateEmail = this.updateEmail.bind(this);
        this.updateUserName = this.updateUserName.bind(this);
+       this.updatePassword = this.updatePassword.bind(this);
    }
 
    updateName({ target }) {
@@ -27,6 +29,9 @@ class UserForm extends Component {
    updateUserName({ target }) {
        this.setState({ userName: target.value });
    }
+   updatePassword({ target }) {
+    this.setState({ password: target.value });
+    }
    
    render() {
        return (
@@ -51,8 +56,15 @@ class UserForm extends Component {
                        value={this.state.userName}
                        onChange={this.updateUserName}
                    />
+                    <Form.Label>Contraseña:</Form.Label>
+                   <Form.Control
+                       type="text"
+                       value={this.state.password}
+                       onChange={this.updatePassword}
+                   />
+                   <br/>
                    <Link to="/dashboard">
-                        <Button variant="primary" onClick={() => this.props.submit({ ...this.state })}>Guardar</Button>
+                        <Button variant="primary" onClick={() => this.props.submit({ ...this.state })}>Registrar</Button>
                    </Link>
                </Form.Group>
            </Form>
