@@ -9,7 +9,7 @@
     "react-dom": "^16.8.6",
     "react-google-font-loader": "^1.0.5",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "yup": "^0.27.0"
   },
   "scripts": {
